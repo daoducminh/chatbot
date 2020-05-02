@@ -6,7 +6,7 @@ setup(
     description='ChatBot Project',
     author='minhdao',
     packages=find_packages(exclude=[
-        'tests', 'static', 'templates', '.gitignore', 'README.md'
+        'docs', 'tests', 'static', 'templates', '.gitignore', 'README.md'
     ]),
     install_requires=[
         'flask', 'pymongo', 'elasticsearch', 'underthesea'
