@@ -2,12 +2,14 @@
 
 ## Installation
 
-- In root folder, run: `pip3 install .`
+- In root folder, run:
+```shell
+mkdir .virtualenvs
+python3 -m venv .virtualenvs/
+.virtualenvs/bin/pip3 install .
+```
 
 ## Usage
 
-- In root folder, run:
-```shell script
-export FLASK_APP=flaskr/app.py
-python3 flaskr/app.py
-```
+- In root folder, run: `flask run`
+- For modifying Flask environment variables, check out `.env` file.
