@@ -1,6 +1,7 @@
 from flask import Blueprint, session, request
 import uuid
 import datetime
+from time import sleep
 
 from flaskr.config.mongodb import mongo
 
@@ -18,7 +19,7 @@ def test_session():
     return f"{session['user']}"
 
 
-@bot.route('/chat', methods=['post'])
+@bot.route('/chat', methods=['POST'])
 def chat():
     data = request.get_json()
     mongo.db[str(session['user'])].insert({
@@ -28,6 +29,8 @@ def chat():
     return 'received'
 
 
-@bot.route('/')
-def test():
-    return 'tested'
+@bot.route('/', methods=['POST'])
+def mimic():
+    data = request.get_json()
+    # sleep(1)
+    return f"Your chat: \"{data['text']}\""
