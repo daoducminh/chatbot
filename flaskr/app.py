@@ -1,5 +1,5 @@
 import os
-from flask import Flask, send_from_directory
+from flask import Flask, send_from_directory, render_template
 from flaskr.config.connections import MONGO_URI
 from flaskr.config.keys import *
 
@@ -10,6 +10,11 @@ app.config["MONGO_URI"] = MONGO_URI
 from flaskr.controllers.bot import bot
 
 app.register_blueprint(bot, url_prefix='/bot')
+
+
+@app.route('/')
+def home():
+    return render_template('base.html')
 
 
 @app.route('/favicon.ico')

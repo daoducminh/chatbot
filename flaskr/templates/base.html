@@ -1,10 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Home page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 </head>
-<body>
 
+<body>
+    <div class="container-fluid" id="main-content">
+        <div class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="/" class="navbar-brand">ChatBot</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            <h2 id="title">Demo ChatBot</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading" id="accordion">
+                        <span class="glyphicon glyphicon-comment"> Chat</span>
+                        <div class="btn-group pull-right">
+                            <a href="#collapseOne" class="btn btn-default btn-xs" type="button" data-toggle="collapse"
+                                data-parent="#accordion">
+                                <span class="glyphicon glyphicon-chevron-down"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-collapse collapse in" id="collapseOne">
+                    <div class="panel-body">
+                        <ul class="chat">
+                            <li class="left clearfix">
+                                <span class="chat-img pull-left">
+                                    <img src="{{ url_for('static', filename='images/bot-icon.png') }}" alt="Bot Avatar"
+                                        class="img-circle" />
+                                </span>
+                                <div class="chat-body clearfix">
+                                    <div class="header">
+                                        <strong class="primary-font">ChatBot</strong>
+                                        <small class="pull-right text-muted">
+                                            <span class="glyphicon glyphicon-time"></span>12 mins ago
+                                        </small>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
+                                        ornare
+                                        dolor, quis ullamcorper ligula sodales.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="right clearfix">
+                                <span class="chat-img pull-right">
+                                    <img src="{{ url_for('static', filename='images/customer-icon.png') }}"
+                                        alt="User Avatar" class="img-circle" />
+                                </span>
+                                <div class="chat-body clearfix">
+                                    <div class="header">
+                                        <small class=" text-muted">
+                                            <span class="glyphicon glyphicon-time"></span>13 mins ago
+                                        </small>
+                                        <strong class="pull-right primary-font">User</strong>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum
+                                        ornare
+                                        dolor, quis ullamcorper ligula sodales.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="input-group">
+                            <input id="input-chat" type="text" class="form-control input-sm"
+                                placeholder="Type your message here..." />
+                            <span class="input-group-btn">
+                                <button class="btn btn-warning btn-sm" id="btn-chat">Send</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
 </body>
+
 </html>
