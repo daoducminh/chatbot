@@ -9,6 +9,6 @@ setup(
         'docs', 'tests', 'static', 'templates', '.gitignore', 'README.md'
     ]),
     install_requires=[
-        'flask', 'pymongo', 'elasticsearch', 'underthesea'
+        'flask', 'elasticsearch', 'underthesea', 'flask-pymongo'
     ],
 )
