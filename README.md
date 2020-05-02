@@ -8,5 +8,6 @@
 
 - In root folder, run:
 ```shell script
-export FLASK_APP=
+export FLASK_APP=flaskr/app.py
+python3 flaskr/app.py
 ```
