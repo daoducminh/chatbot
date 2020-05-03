@@ -2,3 +2,4 @@
 .vscode/
 .virtualenvs/
 __pycache__/
+.env
