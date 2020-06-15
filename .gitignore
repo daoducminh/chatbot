@@ -3,3 +3,5 @@
 .virtualenvs/
 __pycache__/
 .env
+*.pkl
+test*
