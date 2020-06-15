@@ -18,8 +18,11 @@ setup(
     install_requires=[
         'pylint',
         'autopep8',
-        'flask', 'elasticsearch', 'underthesea', 'flask-pymongo', 'python-dotenv',
-        'pyvi',
+        'flask',
+        'elasticsearch',
+        'underthesea',
+        'flask-pymongo',
+        'python-dotenv',
         'tensorflow',
         'numpy',
         'scikit-learn',
