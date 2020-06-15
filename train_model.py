@@ -38,15 +38,15 @@ if __name__ == "__main__":
     train_labels = label_lb.transform(train_labels)
     test_labels = label_lb.transform(test_labels)
 
-    model = Sequential(
+    model = Sequential([
         Dense(128, input_shape=(len(train_data[0]),), activation='relu'),
         Dense(64, activation='relu'),
         Dropout(0.5),
         Dense(len(train_labels[0]), activation='softmax')
-    )
+    ])
 
     model.compile(
-        optimizer='sgd',
+        optimizer='adam',
         loss=CategoricalCrossentropy(),
         metrics=['accuracy']
     )
@@ -55,7 +55,7 @@ if __name__ == "__main__":
     history = model.fit(
         train_data,
         train_labels,
-        epochs=50,
+        epochs=20,
         batch_size=5,
         validation_data=(test_data, test_labels),
         verbose=2

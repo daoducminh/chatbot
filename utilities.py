@@ -1,7 +1,7 @@
 import pickle
 
 
-ignore_words = ['?', '!', ',', 'có', 'có thể',
+ignore_words = ['?', '!', ',', '.', 'có', 'có thể',
                 'gì', 'đi', 'đó', 'xin', 'đế', 'ơi', 'ạ', 'ở', 'thì',
                 'từ', 'shop', 'nhỉ', 'như', 'những', 'mẫu', 'mình',
                 'muốn', 'hỏi', 'của', 'chút', 'cho', 'mình', 'xem',
