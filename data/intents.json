@@ -1,0 +1,145 @@
+[
+    {
+        "tag": "query_brand",
+        "patterns": [
+            "Bạn có giày của những hãng nào?",
+            "Shop có những loại giày nào nhỉ?",
+            "Cho mình xem những hãng giày có trong shop đi ",
+            "Có những hãng nào nhỉ?",
+            "Shop có giày như thế nào?",
+            "Hãng Nike",
+            "Cho em xem mấy mẫu giày của shop đi"
+        ],
+        "responses": []
+    },
+    {
+        "tag": "query_color",
+        "patterns": [
+            "Cho mình xem giày màu đỏ",
+            "Giày màu đỏ có đẹp không shop",
+            "Shop có giày đế đen không?",
+            "Mình thích xem giày trắng ",
+            "Giày da"
+        ],
+        "responses": []
+    },
+    {
+        "tag": "query_gender",
+        "patterns": [
+            "Mình tìm giày nam",
+            "Giày nữ",
+            "Shop có những mẫu giày nữ như nào?",
+            "Tôi muốn mua giày nam"
+        ],
+        "responses": []
+    },
+    {
+        "tag": "query_size",
+        "patterns": [
+            "Bạn có giày cỡ 10",
+            "Tôi muốn tìm giày cỡ 42",
+            "Shop có những cỡ giày nào?",
+            "Mình muốn mua giày cho bé trai 10 tuổi"
+        ],
+        "responses": []
+    },
+    {
+        "tag": "combine_1",
+        "labels": [
+            "size",
+            "color"
+        ],
+        "patterns": [
+            "Cho mình xem giày màu đỏ cỡ 10",
+            "Màu xanh, cỡ 15",
+            "Giày màu trắng có cỡ từ bao nhiêu tới bao nhiêu ạ",
+            "Giày cỡ 40 thì có những màu nào nhỉ"
+        ],
+        "responses": []
+    },
+    {
+        "tag": "combine_2",
+        "labels": [
+            "brand",
+            "color"
+        ],
+        "patterns": [
+            "Cho mình xem giày Nike đỏ",
+            "Shop có những mẫu giày Nike như thế nào?",
+            "Giày Nike có những màu nào ạ",
+            "Nike, trắng"
+        ],
+        "responses": []
+    },
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Xin chào",
+            "Shop ơi",
+            "Chào shop",
+            "Hi",
+            "Có ai ở đó không?",
+            "Hey",
+            "Hola",
+            "Hello"
+        ],
+        "responses": [
+            "Xin chào! Bạn muốn mua giày phải không?",
+            "Xin chào! Rất vui khi được gặp bạn",
+            "Xin mời bạn đến với cửa hàng của chúng tôi",
+            "Xin chào! Tôi có thể giúp gì cho bạn được?"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "Goodbye",
+            "Cảm ơn shop, xin chào",
+            "Tạm biệt"
+        ],
+        "responses": [
+            "Hihi! Hẹn gặp lại",
+            "Cảm ơn bạn đã quan tâm đến cửa hàng của chúng tôi",
+            "Xin chào! Hẹn gặp lại vào lần sau.",
+            "Tạm biệt! Hãy thường xuyên ghé thăm cửa hàng của chúng tôi nhé!",
+            "Xin chào! Chúc bạn có một ngày tốt lành!"
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Cảm ơn nhiều",
+            "Cảm ơn",
+            "Tuyệt vời! Cảm ơn shop"
+        ],
+        "responses": [
+            "Rất vui vì đã giúp được cho bạn!",
+            "Thật tuyệt vời khi điều đó làm bạn vui"
+        ]
+    },
+    {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": [
+            "Xin lỗi, tôi không hiểu",
+            "Bạn có thể miêu tả rõ hơn được không?",
+            "Tôi không chắc là tôi hiểu ý của bạn"
+        ]
+    },
+    {
+        "tag": "options",
+        "patterns": [
+            "Cho mình hỏi chút",
+            "Bạn có thể giúp tôi không?",
+            "Bạn có thể làm gì?",
+            "Bạn cung cấp những gì?"
+        ],
+        "responses": [
+            "Hãy đưa ra câu hỏi. Tôi sẽ giúp bạn",
+            "Tôi có thể giúp gì cho bạn?",
+            "Bạn có vấn đề gì cần tôi giúp?",
+            "Bạn muốn tìm kiếm gì?"
+        ]
+    }
+]
