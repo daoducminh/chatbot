@@ -15,12 +15,13 @@ if __name__ == "__main__":
                 pattern_words = [
                     w.lower().replace('_', ' ')
                     for w in temp
-                    if filter_stopword(w.lower() and w)
+                    if filter_stopword(w.lower()) and w
                 ]
                 if pattern_words:
                     bag_of_words.extend(pattern_words)
                     documents.append(pattern_words)
                     labels.append(tag)
+        a = sorted(list(set(bag_of_words)))
         write_pickle_file('data/documents.pkl', documents)
         write_pickle_file('data/labels.pkl', labels)
         write_pickle_file('data/words.pkl', sorted(list(set(bag_of_words))))

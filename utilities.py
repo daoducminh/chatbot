@@ -5,7 +5,8 @@ ignore_words = ['?', '!', ',', '.', 'có', 'có thể',
                 'gì', 'đi', 'đó', 'xin', 'đế', 'ơi', 'ạ', 'ở', 'thì',
                 'từ', 'shop', 'nhỉ', 'như', 'những', 'mẫu', 'mình',
                 'muốn', 'hỏi', 'của', 'chút', 'cho', 'mình', 'xem',
-                'thích', 'tìm', 'nào', 'tôi', 'của', 'mấy']
+                'thích', 'tìm', 'nào', 'tôi', 'của', 'mấy', 'đang',
+                'nhu cầu', 'mua', 'làm']
 # brands = [
 #     'nike',
 #     'adidas',

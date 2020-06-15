@@ -1,6 +1,9 @@
 [
     {
         "tag": "query_brand",
+        "labels": [
+            "brand"
+        ],
         "patterns": [
             "Bạn có giày của những hãng nào?",
             "Shop có những loại giày nào nhỉ?",
@@ -37,6 +40,9 @@
     },
     {
         "tag": "query_color",
+        "labels": [
+            "color"
+        ],
         "patterns": [
             "Cho mình xem giày màu đỏ",
             "Cho mình xem giày màu xanh",
@@ -85,6 +91,9 @@
     },
     {
         "tag": "query_gender",
+        "labels": [
+            "gender"
+        ],
         "patterns": [
             "Mình tìm giày nam",
             "Mình tìm giày nữ",
@@ -99,6 +108,9 @@
     },
     {
         "tag": "query_size",
+        "labels": [
+            "size"
+        ],
         "patterns": [
             "Bạn có giày cỡ 40",
             "Bạn có giày cỡ 37",
