@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelBinarizer
 from tensorflow.keras.models import load_model
 from underthesea import pos_tag, word_tokenize
 
-from utilities import filter_stopword, read_pickle_file
+from utilities import filter_stopword, read_pickle_file, BRANDS
 
 BRAND = 'brand'
 GENDER = 'gender'
@@ -72,6 +72,9 @@ def handle_question(tag, tokens, question):
                     for t in temp:
                         if t[1] == 'Np':
                             brands.append({'brand': t[0].lower()})
+                    for b in BRANDS:
+                        if (b in temp_tokens) and {'brand': b} not in brands:
+                            brands.append({'brand': b})
                     if brands:
                         brand_query['$or'] = brands
                 if GENDER in labels:
@@ -111,6 +114,7 @@ def handle_question(tag, tokens, question):
                 body = [w for w in info_list if w]
                 if body:
                     query['$and'] = body
+                    print(query)
                     try:
                         result = collection.find(query)
                         return (False, list(result))

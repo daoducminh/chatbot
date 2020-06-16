@@ -7,14 +7,14 @@ ignore_words = ['?', '!', ',', '.', 'có', 'có thể',
                 'muốn', 'hỏi', 'của', 'chút', 'cho', 'mình', 'xem',
                 'thích', 'tìm', 'nào', 'tôi', 'của', 'mấy', 'đang',
                 'nhu cầu', 'mua', 'làm']
-# brands = [
-#     'nike',
-#     'adidas',
-#     'new balance',
-#     'skechers',
-#     'asics',
-#     'avia'
-# ]
+BRANDS = [
+    'nike',
+    'adidas',
+    'new balance',
+    'skechers',
+    'asics',
+    'avia'
+]
 
 
 def filter_stopword(word):
