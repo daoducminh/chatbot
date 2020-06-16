@@ -114,8 +114,8 @@ def handle_question(tag, tokens, question):
                     try:
                         result = collection.find(query)
                         return (False, list(result))
-                    except
-                    return (True, 'Có lỗi đã xảy ra. Xin vui lòng thử lại.'), 200
+                    except:
+                        return (True, 'Có lỗi đã xảy ra. Xin vui lòng thử lại.'), 200
                 else:
                     return (True, 'Không có trường thông tin mà bạn cần tìm kiếm.'), 200
     return (True, 'Có lỗi đã xảy ra. Xin vui lòng thử lại.'), 200
