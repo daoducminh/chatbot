@@ -53,7 +53,7 @@ def handle_question(tag, tokens, question):
     for intent in intents:
         if tag == intent['tag']:
             if intent['responses']:
-                return (True, intent['responses'][randrange(0, len(intent['responses']))]), 200
+                return (True, intent['responses'][randrange(0, len(intent['responses']))])
             else:
                 temp_tokens = [
                     w.lower() for w in tokens
@@ -113,12 +113,12 @@ def handle_question(tag, tokens, question):
                     query['$and'] = body
                     try:
                         result = collection.find(query)
-                        return (False, list(result)), 200
+                        return (False, list(result))
                     except:
-                        return (True, 'Có lỗi đã xảy ra. Xin vui lòng thử lại.'), 200
+                        return (True, 'Có lỗi đã xảy ra. Xin vui lòng thử lại.')
                 else:
-                    return (True, 'Không có trường thông tin mà bạn cần tìm kiếm.'), 200
-    return (True, 'Có lỗi đã xảy ra. Xin vui lòng thử lại.'), 200
+                    return (True, 'Không có trường thông tin mà bạn cần tìm kiếm.')
+    return (True, 'Có lỗi đã xảy ra. Xin vui lòng thử lại.')
 
 
 def respond(question):
