@@ -71,22 +71,24 @@ def handle_question(tag, tokens, question):
                     brands = []
                     for t in temp:
                         if t[1] == 'Np':
-                            brands.append({'brand': t[0]})
+                            brands.append({'brand': t[0].lower()})
                     if brands:
                         brand_query['$or'] = brands
                 if GENDER in labels:
                     genders = []
-                    if MEN in temp_tokens:
-                        genders.append({'categories': MEN})
-                    if WOMEN in temp_tokens:
-                        genders.append({'categories': WOMEN})
+                    for t in temp_tokens:
+                        gender = t.lower()
+                        if gender == MEN:
+                            genders.append({'categories': MEN})
+                        if gender == WOMEN:
+                            genders.append({'categories': WOMEN})
                     if genders:
                         gender_query['$or'] = genders
                 if COLOR in labels:
                     colors = []
                     for t in temp:
                         if t[1] == 'A':
-                            colors.append({'colors': t[0]})
+                            colors.append({'colors': t[0].lower()})
                     if colors:
                         color_query['$or'] = colors
                 if SIZE in labels:
