@@ -72,20 +72,23 @@ def handle_question(tag, tokens, question):
                     for t in temp:
                         if t[1] == 'Np':
                             brands.append({'brand': t[0]})
-                    brand_query['$or'] = brands
+                    if brands:
+                        brand_query['$or'] = brands
                 if GENDER in labels:
                     genders = []
                     if MEN in temp_tokens:
                         genders.append({'categories': MEN})
                     if WOMEN in temp_tokens:
                         genders.append({'categories': WOMEN})
-                    gender_query['$or'] = genders
+                    if genders:
+                        gender_query['$or'] = genders
                 if COLOR in labels:
                     colors = []
                     for t in temp:
                         if t[1] == 'A':
                             colors.append({'colors': t[0]})
-                    color_query['$or'] = colors
+                    if colors:
+                        color_query['$or'] = colors
                 if SIZE in labels:
                     sizes = []
                     for t in temp:
@@ -94,13 +97,16 @@ def handle_question(tag, tokens, question):
                                 sizes.append({'sizes': int(t[0])})
                             except:
                                 continue
-                    size_query['$or'] = sizes
-                query['$and'] = [
+
+                    if sizes:
+                        size_query['$or'] = sizes
+                info_list = [
                     brand_query,
                     gender_query,
                     color_query,
                     size_query
                 ]
+                query['$and'] = [w for w in info_list if w]
                 print(query)
                 result = collection.find(query)
                 return (False, list(result))
