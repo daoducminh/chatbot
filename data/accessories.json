@@ -1,582 +1,1476 @@
-[{
+[
+    {
         "name": "Nike Free 4.0 V5 Running Women's Shoes Size",
-        "brand": "Nike",
-        "colors": ["trắng", "đen"],
+        "brand": "nike",
+        "colors": [
+            "trắng",
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/4303d436-600c-4c78-9921-5c3a3dfd0a39_1.2eb3f68efd640730610fdc822ede3e17.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "Nike Women's Free 5.0 Flash Running Shoes",
-        "brand": "Nike",
-        "colors": ["xám"],
+        "brand": "nike",
+        "colors": [
+            "xám"
+        ],
         "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "https://fado.vn/us/amazon/nike-womens-free-50-running-shoe-B00MXH47CA.html#image-slider-item-1"
     },
     {
         "name": "Nike Women's Genicco Casual Shoe",
-        "brand": "Nike",
-        "colors": ["đen"],
+        "brand": "nike",
+        "colors": [
+            "đen"
+        ],
         "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/4bd329e8-aca0-4a63-b35b-fc8f7660ec2b_1.46c9ede1c7b3feb75089994962897549.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "Nike Magista Onda Fg Athletic Sneakers Yellow/blue Women Soccer Cleats Size 8.5",
-        "brand": "Nike",
-        "colors": ["vàng"],
+        "brand": "nike",
+        "colors": [
+            "vàng"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Nike Women's Dunk Sky Hi Cut Out Prm Casual Shoe",
-        "brand": "Nike",
-        "colors": ["đen"],
+        "brand": "nike",
+        "colors": [
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Nike Hypervenom Phade Fg Soccer Cleats White, Blue, Mint 599074 101 Women's 8",
-        "brand": "Nike",
-        "colors": ["trắng ", "xanh", "đỏ"],
+        "brand": "nike",
+        "colors": [
+            "trắng ",
+            "xanh",
+            "đỏ"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Nike Free 4.0 V4 Women's Shoes Size",
-        "brand": "Nike",
-        "colors": ["trắng", "đen"],
+        "brand": "nike",
+        "colors": [
+            "trắng",
+            "đen"
+        ],
         "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/c4c271ba-73b9-434a-96fa-1e32551d407f_1.9695b7b8f2e7cac21cf20e595a10b316.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "Nike Air Huarache Run Prm Silver/green Womens Running Shoes 683818-101 Size 7.5",
-        "brand": "Nike",
-        "colors": ["trắng", "xanh"],
+        "brand": "nike",
+        "colors": [
+            "trắng",
+            "xanh"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/afbb17f1-c82d-43b2-be5e-5967f65b8629_1.7923151dd5808b23d0a1064f02ed69d0.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "Nike Air Max + 2014 Running Women's Shoes Size",
-        "brand": "Nike",
-        "colors": ["xám", "đen"],
+        "brand": "nike",
+        "colors": [
+            "xám",
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Women's Nike Mercurial Veloce Ii Fg Firm Ground Soccer Lacrosse Cleats Shoes 8",
-        "brand": "Nike",
-        "colors": ["đen", "hồng"],
+        "brand": "nike",
+        "colors": [
+            "đen",
+            "hồng"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Nike Women's Wmns Free 5.0 Plus Running Shoes",
-        "brand": "Nike",
-        "colors": ["nâu", "đen"],
+        "brand": "nike",
+        "colors": [
+            "nâu",
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Nike Womens Internationalist Trainers Sneakers Shoes",
-        "brand": "Nike",
-        "colors": ["trắng", "đen", "xanh", "nâu"],
+        "brand": "nike",
+        "colors": [
+            "trắng",
+            "đen",
+            "xanh",
+            "nâu"
+        ],
         "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Nike Women's Air Max Thea Print Running Shoe",
-        "brand": "Nike",
-        "colors": ["đen", "trắng", "xanh"],
+        "brand": "nike",
+        "colors": [
+            "đen",
+            "trắng",
+            "xanh"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/fa8e52f6-12ad-4a66-93e6-3b7f3512832a_1.979e603115de1457d22604a8bf4ec7a5.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
-
     {
         "name": "Nike Free 4.0 Women  Round Toe Synthetic Purple Running Shoe",
-        "brand": "Nike",
-        "colors": ["đen"],
+        "brand": "nike",
+        "colors": [
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/a24f9e3f-6954-43c4-ba60-b56300cbf998_1.403019606e40cfe465bc3d0f61f619e7.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "Adidas Women's Commander Td 4 Mid Basketball Shoes",
         "brand": "adidas",
-        "colors": ["nâu", "tím", "đen"],
+        "colors": [
+            "nâu",
+            "tím",
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "'adi-ease' Sneaker (women)",
         "brand": "adidas",
-        "colors": ["xám", "tím"],
+        "colors": [
+            "xám",
+            "tím"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "'adi-ease' Sneaker (women)",
         "brand": "adidas",
-        "colors": ["đen", "tím"],
+        "colors": [
+            "đen",
+            "tím"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
-
     {
         "name": "Adidas Women's Commander Td 4 Mid Basketball Shoes",
         "brand": "adidas",
-        "colors": ["Vàng", "đen"],
+        "colors": [
+            "Vàng",
+            "đen"
+        ],
         "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Adidas Women's Predator Absolado Instinct Fg Low Soccer Cleats",
         "brand": "adidas",
-        "colors": ["xanh", "trắng"],
+        "colors": [
+            "xanh",
+            "trắng"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Adidas Women's Adissage Slides",
         "brand": "adidas",
-        "colors": ["xám", "trắng"],
+        "colors": [
+            "xám",
+            "trắng"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
-
     {
         "name": "'top Ten Hi' High Top Sneaker (women)",
         "brand": "adidas",
-        "colors": ["đen"],
+        "colors": [
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
-
     {
         "name": "Adidas Women's Predito Instinct In Low Soccer Shoes",
         "brand": "adidas",
-        "colors": ["tím"],
+        "colors": [
+            "tím"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "New Balance Wf717 Women  Round Toe Synthetic  Running Shoe",
-        "brand": "New Balance",
-        "colors": ["xám"],
+        "brand": "new balance",
+        "colors": [
+            "xám"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/fee02790-b377-4228-9d56-afa2035aa2e3_1.6fb1a85b3a2efb0358d86ccd4ac486d9.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "New Balance Women's 490v2 Black/purple Running Athletic Shoe - Wide Width",
-        "brand": "New Balance",
-        "colors": ["đen", "tím"],
+        "brand": "new balance",
+        "colors": [
+            "đen",
+            "tím"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "New Balance 1600 Running Women's Shoes Size",
-        "brand": "New Balance",
-        "colors": ["đen"],
+        "brand": "new balance",
+        "colors": [
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/ca60619c-43ce-49d9-b983-c484222e036d_1.e0491a48bfe3418533144b923ff7d5b1.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "New Balance W540 Women Us 7 Gray Running Shoe Pre Owned 1665",
-        "brand": "New Balance",
-        "colors": ["xám"],
+        "brand": "new balance",
+        "colors": [
+            "xám"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "New Balance W870 Women  Round Toe Synthetic  Running Shoe",
-        "brand": "New Balance",
-        "colors": ["tím"],
+        "brand": "new balance",
+        "colors": [
+            "tím"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/df336f84-f093-42f7-8a6c-03118d9b6eec_1.76704bc974ff55e2f04097c37bb9934d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF,https://i5.walmartimages.com/asr/9e31703e-5b3b-4c49-b3d6-c40143d5c2a6_1.e2e136f52d42f6e8f92f2f0efe23b5cb.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "New Balance Cw1600 Women  Round Toe Synthetic Tan Sneakers",
-        "brand": "New Balance",
-        "colors": ["đen"],
+        "brand": "new balance",
+        "colors": [
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/d9367d36-031d-497d-96b0-d44be31eb5fb_1.66c30b3e1aff264334564a641cc5263d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "New Balance Xc5000v2 Spike   Round Toe Synthetic  Cross Training",
-        "brand": "New Balance",
-        "colors": ["đen", "hồng"],
+        "brand": "new balance",
+        "colors": [
+            "đen",
+            "hồng"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "New Balance W450sb3-v3 D Wide Width Silver Pink Womens Us Size 10, Uk 8",
-        "brand": "New Balance",
-        "colors": ["tím"],
+        "brand": "new balance",
+        "colors": [
+            "tím"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "New Balance Women's Fresh Foam Zante Running Shoes Coral-black Size 9",
-        "brand": "New Balance",
-        "colors": ["đen"],
+        "brand": "new balance",
+        "colors": [
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/992113b0-c184-4282-9f76-5d1342ccc5bc_1.4131db175d896e9aa362399f6e5e7482.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
-
     {
         "name": "New Balance Wf717 Women  Round Toe Synthetic  Running Shoe",
-        "brand": "New Balance",
-        "colors": ["đen"],
+        "brand": "new balance",
+        "colors": [
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/fee02790-b377-4228-9d56-afa2035aa2e3_1.6fb1a85b3a2efb0358d86ccd4ac486d9.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "New Balance W6053 Women  Open Toe Synthetic  Thong Sandal",
-        "brand": "New Balance",
-        "colors": ["xám"],
+        "brand": "new balance",
+        "colors": [
+            "xám"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/967b043c-cfba-4925-81b8-6750c11c8e7e_1.6ed5c47bd32695ccfbee9e7c5dead678.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "New Balance W870 Women  Round Toe Synthetic  Running Shoe",
-        "brand": "New Balance",
-        "colors": ["tím"],
+        "brand": "new balance",
+        "colors": [
+            "tím"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/df336f84-f093-42f7-8a6c-03118d9b6eec_1.76704bc974ff55e2f04097c37bb9934d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF,https://i5.walmartimages.com/asr/9e31703e-5b3b-4c49-b3d6-c40143d5c2a6_1.e2e136f52d42f6e8f92f2f0efe23b5cb.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "Skechers Women's Relaxed Fit Empire Ocean View Bungee Lace Shoe",
-        "brand": "Skechers",
-        "colors": ["xanh", "trắng"],
+        "brand": "skechers",
+        "colors": [
+            "xanh",
+            "trắng"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Skechers Women's Relaxed Fit Empire Ocean View Bungee Lace Shoe",
-        "brand": "Skechers",
-        "colors": ["xám", "trắng"],
+        "brand": "skechers",
+        "colors": [
+            "xám",
+            "trắng"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Skechers Women's Burst Athletic Shoe",
-        "brand": "Skechers",
-        "colors": ["đen"],
+        "brand": "skechers",
+        "colors": [
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Skechers Women's Flexibles Black Casual Comfort Loafer",
-        "brand": "Skechers",
-        "colors": ["đen"],
+        "brand": "skechers",
+        "colors": [
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Skechers Women's Go Flex Walk Slip-on Walking Shoe",
-        "brand": "Skechers",
-        "colors": ["trắng"],
+        "brand": "skechers",
+        "colors": [
+            "trắng"
+        ],
         "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Women's Skechers Keepsakes Leatherette Mid Calf Boot Black By Skechers",
-        "brand": "Skechers",
-        "colors": ["đen"],
+        "brand": "skechers",
+        "colors": [
+            "đen"
+        ],
         "categories": "Shoes,Boots,Women's Shoes",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Skechers Women's On The Go Brown Chugga Bootie",
-        "brand": "Skechers",
-        "colors": ["nâu", "đen"],
+        "brand": "skechers",
+        "colors": [
+            "nâu",
+            "đen"
+        ],
         "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://c.shld.net/rpx/i/s/i/spin/image/spin_prod_1076465112,http://c.shld.net/rpx/i/s/i/spin/image/spin_prod_969494912,http://c.shld.net/rpx/i/s/i/spin/image/spin_prod_1094948812"
     },
     {
         "name": "Skechers Women's Relaxed Fit Empire Ocean View Bungee Lace Shoe",
-        "brand": "Skechers",
-        "colors": ["xanh", "trắng"],
+        "brand": "skechers",
+        "colors": [
+            "xanh",
+            "trắng"
+        ],
         "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Skechers Women's Flex Appeal Obvious Choice Training Shoes",
-        "brand": "Skechers",
-        "colors": ["hồng"],
+        "brand": "skechers",
+        "colors": [
+            "hồng"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
-
     {
         "name": "Skechers Women's Synergy Scene Stealer Walking Shoe",
-        "brand": "Skechers",
-        "colors": ["xám"],
+        "brand": "skechers",
+        "colors": [
+            "xám"
+        ],
         "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Skechers Women's Bobs Bliss Tweedy Shoe",
-        "brand": "Skechers",
-        "colors": ["nâu", "đen"],
+        "brand": "skechers",
+        "colors": [
+            "nâu",
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
-
     {
         "name": "Skechers Women's Flex Appeal Adaptable Training Shoe",
-        "brand": "Skechers",
-        "colors": ["đen", "trắng", "xám"],
+        "brand": "skechers",
+        "colors": [
+            "đen",
+            "trắng",
+            "xám"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Asics Women's Gel-contend 3 Running Shoes",
-        "brand": "ASICS",
-        "colors": ["nâu", "trắng"],
+        "brand": "asics",
+        "colors": [
+            "nâu",
+            "trắng"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Asics Women's Gel-excite 3 Running Shoes",
-        "brand": "ASICS",
-        "colors": ["đne", "trắng", "xanh"],
-        "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
-        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
-    },
-    {
-        "name": "Women's Asics, Gel Sonoma 2 Trail Running Sneakers",
-        "brand": "ASICS",
-        "colors": ["xám", "tím"],
-        "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
-        "imageURLs": "https://i5.walmartimages.com/asr/7fb1e2e7-065b-4657-aa56-b437437f1105_1.b9821fba977e762ba2650e8945a2657a.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
-    },
-    {
-        "name": "* New * Asics Gel Pivot 10 Womens Netball Shoe (b) (5001)",
-        "brand": "ASICS",
-        "colors": ["đen"],
-        "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
-        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
-    },
-
-    {
-        "name": "Asics Women's Running Shoes Gel-foundation 12 Mint Coral Blue Size 9",
-        "brand": "ASICS",
-        "colors": ["trắng"],
-        "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
-        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
-    },
-    {
-        "name": "Asics Women's Gel-surveyor 3 Running Shoes",
-        "brand": "ASICS",
-        "colors": ["đen"],
-        "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
-        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
-    },
-    {
-        "name": "Asics Women's Gel-contend 3 Running Shoes",
-        "brand": "ASICS",
-        "colors": ["nâu", "đen"],
-        "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
-        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
-    },
-    {
-        "name": "Asics Gel Nimbus 16 Womens Shoes T485n 3570 Hot Pink Green Black Size 5 Msrp$150",
-        "brand": "ASICS",
-        "colors": ["hồng"],
-        "categories": "nữ",
-        "sizes": [35],
-        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
-    },
-    {
-        "name": "Asics Women's Gel-surveyor 3 Running Shoes",
-        "brand": "ASICS",
-        "colors": ["nâu", "đen"],
-        "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
-        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
-    },
-    {
-        "name": "Asics Womens T485n Gel-nimbus 16 Running Shoe Pink Green Black Size 8.5 B",
-        "brand": "ASICS",
-        "colors": ["đen",
+        "brand": "asics",
+        "colors": [
+            "đne",
             "trắng",
             "xanh"
         ],
         "categories": "nam",
-        "sizes": [8.5],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
+        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
+    },
+    {
+        "name": "Women's Asics, Gel Sonoma 2 Trail Running Sneakers",
+        "brand": "asics",
+        "colors": [
+            "xám",
+            "tím"
+        ],
+        "categories": "nữ",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
+        "imageURLs": "https://i5.walmartimages.com/asr/7fb1e2e7-065b-4657-aa56-b437437f1105_1.b9821fba977e762ba2650e8945a2657a.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
+    },
+    {
+        "name": "* New * Asics Gel Pivot 10 Womens Netball Shoe (b) (5001)",
+        "brand": "asics",
+        "colors": [
+            "đen"
+        ],
+        "categories": "nữ",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
+        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
+    },
+    {
+        "name": "Asics Women's Running Shoes Gel-foundation 12 Mint Coral Blue Size 9",
+        "brand": "asics",
+        "colors": [
+            "trắng"
+        ],
+        "categories": "nữ",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
+        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
+    },
+    {
+        "name": "Asics Women's Gel-surveyor 3 Running Shoes",
+        "brand": "asics",
+        "colors": [
+            "đen"
+        ],
+        "categories": "nam",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
+        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
+    },
+    {
+        "name": "Asics Women's Gel-contend 3 Running Shoes",
+        "brand": "asics",
+        "colors": [
+            "nâu",
+            "đen"
+        ],
+        "categories": "nữ",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
+        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
+    },
+    {
+        "name": "Asics Gel Nimbus 16 Womens Shoes T485n 3570 Hot Pink Green Black Size 5 Msrp$150",
+        "brand": "asics",
+        "colors": [
+            "hồng"
+        ],
+        "categories": "nữ",
+        "sizes": [
+            35
+        ],
+        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
+    },
+    {
+        "name": "Asics Women's Gel-surveyor 3 Running Shoes",
+        "brand": "asics",
+        "colors": [
+            "nâu",
+            "đen"
+        ],
+        "categories": "nữ",
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
+        "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
+    },
+    {
+        "name": "Asics Womens T485n Gel-nimbus 16 Running Shoe Pink Green Black Size 8.5 B",
+        "brand": "asics",
+        "colors": [
+            "đen",
+            "trắng",
+            "xanh"
+        ],
+        "categories": "nam",
+        "sizes": [
+            8.5
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Asics Women's Gel-sendai 2 Running Shoes",
-        "brand": "ASICS",
-        "colors": ["đen"],
+        "brand": "asics",
+        "colors": [
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
-
     {
         "name": "Avia Avi-pulse Women Us 6.5 White Sneakers",
-        "brand": "Avia",
-        "colors": ["xám", "tím", "đen"],
+        "brand": "avia",
+        "colors": [
+            "xám",
+            "tím",
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Avia Avi-endeavor Women Us 7 W Gray Sneakers",
-        "brand": "Avia",
-        "colors": ["nâu"],
+        "brand": "avia",
+        "colors": [
+            "nâu"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://i5.walmartimages.com/asr/b6f0aca1-ddf5-4359-91a0-116b9b170b28_1.453343a7361044377e6d3cc06c89a288.jpeg?odnHeight=450&odnWidth=450"
     },
     {
         "name": "Avia Avi-pulse Women Us 6.5 White Sneakers",
-        "brand": "Avia",
-        "colors": ["nâu", "đen"],
+        "brand": "avia",
+        "colors": [
+            "nâu",
+            "đen"
+        ],
         "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Avia Women's Taylor Walking Shoe",
-        "brand": "Avia",
-        "colors": ["đen", "trắng", "tím"],
+        "brand": "avia",
+        "colors": [
+            "đen",
+            "trắng",
+            "tím"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Avia Avi-pulse Women Us 6.5 White Sneakers",
-        "brand": "Avia",
-        "colors": ["vàng", "tím", "đen"],
+        "brand": "avia",
+        "colors": [
+            "vàng",
+            "tím",
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            44
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Avia Women's 325 Wide Width Slip Resistant Athletic Shoe",
-        "brand": "Avia",
-        "colors": ["đen"],
+        "brand": "avia",
+        "colors": [
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            44
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/2f876f93-162c-4ef0-8707-bdb0f34241d9_1.7c4f8256e82acecc42d664928805a988.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "Avia Women's 325 Wide Width Slip Resistant Athletic Shoe",
-        "brand": "Avia",
-        "colors": ["đen"],
+        "brand": "avia",
+        "colors": [
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            44
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/2f876f93-162c-4ef0-8707-bdb0f34241d9_1.7c4f8256e82acecc42d664928805a988.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "Avia Avi-endeavor Women Us 10.5 White Sneakers",
-        "brand": "Avia",
-        "colors": ["nâu", "tím", "đen"],
+        "brand": "avia",
+        "colors": [
+            "nâu",
+            "tím",
+            "đen"
+        ],
         "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://i5.walmartimages.com/asr/c7e50ceb-34e9-4f89-b189-f874eedc3c11_1.b2b2b1a075deadb14cbced326bd62e32.jpeg?odnHeight=450&odnWidth=450"
     },
     {
         "name": "Avia Women's 325 Wide Width Slip Resistant Athletic Shoe",
-        "brand": "Avia",
-        "colors": ["đen"],
+        "brand": "avia",
+        "colors": [
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            44
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/2f876f93-162c-4ef0-8707-bdb0f34241d9_1.7c4f8256e82acecc42d664928805a988.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "Avia Women's Endeavor W Light Grey/white/lime Ankle-high Synthetic Cross Trainer Shoe - 7m",
-        "brand": "Avia",
-        "colors": ["nâu", "đen"],
+        "brand": "avia",
+        "colors": [
+            "nâu",
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "https://i5.walmartimages.com/asr/bad510c6-d0f3-491b-b41b-f7b257d27133_1.b484544f0ba4acd933db003221dc7b70.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
     },
     {
         "name": "Avia Avi-endeavor Women Us 7 W Gray Sneakers",
-        "brand": "Avia",
-        "colors": ["xám", "tím", "đen"],
+        "brand": "avia",
+        "colors": [
+            "xám",
+            "tím",
+            "đen"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://i5.walmartimages.com/asr/b6f0aca1-ddf5-4359-91a0-116b9b170b28_1.453343a7361044377e6d3cc06c89a288.jpeg?odnHeight=450&odnWidth=450"
     },
-
     {
         "name": "Avia Avi-pulse Women Us 6.5 White Sneakers",
-        "brand": "Avia",
-        "colors": ["trắng", "xanh", "xám"],
+        "brand": "avia",
+        "colors": [
+            "trắng",
+            "xanh",
+            "xám"
+        ],
         "categories": "nam",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Avia Women's Taylor Walking Shoe",
-        "brand": "Avia",
-        "colors": ["đen", "trắng", "đỏ"],
+        "brand": "avia",
+        "colors": [
+            "đen",
+            "trắng",
+            "đỏ"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     },
     {
         "name": "Avia Avi-pulse Women Us 6.5 White Sneakers",
-        "brand": "Avia",
-        "colors": ["đỏ"],
+        "brand": "avia",
+        "colors": [
+            "đỏ"
+        ],
         "categories": "nữ",
-        "sizes": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "sizes": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
         "imageURLs": "http://ecx.images-amazon.com/images/I/51H%2BzefJ9nL._SL210_.jpg"
     }
 ]

@@ -53,10 +53,10 @@ def handle_question(tag, tokens, question):
     for intent in intents:
         if tag == intent['tag']:
             if intent['responses']:
-                return (True, intent['responses'][randrange(0, len(intent['responses']))])
+                return (True, intent['responses'][randrange(0, len(intent['responses']))]), 200
             else:
                 temp_tokens = [
-                    w for w in tokens
+                    w.lower() for w in tokens
                     if filter_stopword(w.lower()) and w
                 ]
                 temp = pos_tag(' '.join(temp_tokens))
@@ -108,11 +108,17 @@ def handle_question(tag, tokens, question):
                     color_query,
                     size_query
                 ]
-                query['$and'] = [w for w in info_list if w]
-                print(query)
-                result = collection.find(query)
-                return (False, list(result))
-    return (True, 'Có lỗi đã xảy ra. Xin vui lòng thử lại.')
+                body = [w for w in info_list if w]
+                if body:
+                    query['$and'] = body
+                    try:
+                        result = collection.find(query)
+                        return (False, list(result))
+                    except
+                    return (True, 'Có lỗi đã xảy ra. Xin vui lòng thử lại.'), 200
+                else:
+                    return (True, 'Không có trường thông tin mà bạn cần tìm kiếm.'), 200
+    return (True, 'Có lỗi đã xảy ra. Xin vui lòng thử lại.'), 200
 
 
 def respond(question):
