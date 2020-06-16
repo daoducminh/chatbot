@@ -113,7 +113,7 @@ def handle_question(tag, tokens, question):
                     query['$and'] = body
                     try:
                         result = collection.find(query)
-                        return (False, list(result))
+                        return (False, list(result)), 200
                     except:
                         return (True, 'Có lỗi đã xảy ra. Xin vui lòng thử lại.'), 200
                 else:
