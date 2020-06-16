@@ -55,7 +55,7 @@ if __name__ == "__main__":
     history = model.fit(
         train_data,
         train_labels,
-        epochs=20,
+        epochs=30,
         batch_size=5,
         validation_data=(test_data, test_labels),
         verbose=2

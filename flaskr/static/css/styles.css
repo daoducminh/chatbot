@@ -37,7 +37,7 @@
 .panel-body
 {
     overflow-y: scroll;
-    height: 400px;
+    height: 500px;
 }
 
 ::-webkit-scrollbar-track
@@ -56,4 +56,16 @@
 {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
     background-color: #555;
+}
+
+#item-list
+{
+    overflow-y: scroll;
+    height: 650px;
+}
+
+#result-box
+{
+    overflow-y: scroll;
+    height: 200px;
 }

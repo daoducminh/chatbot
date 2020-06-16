@@ -1,11 +1,14 @@
-from underthesea import word_tokenize, pos_tag
+import os
 from functools import reduce
-from tensorflow.keras.models import load_model
-from sklearn.preprocessing import LabelBinarizer
-import numpy as np
-from utilities import read_pickle_file, filter_stopword
 from random import randrange
+
+import numpy as np
 from pymongo import MongoClient
+from sklearn.preprocessing import LabelBinarizer
+from tensorflow.keras.models import load_model
+from underthesea import pos_tag, word_tokenize
+
+from utilities import filter_stopword, read_pickle_file
 
 BRAND = 'brand'
 GENDER = 'gender'
@@ -13,8 +16,9 @@ COLOR = 'color'
 SIZE = 'size'
 MEN = 'nam'
 WOMEN = 'nữ'
+MONGODB_URI = os.getenv('MONGODB_URI')
 
-client = MongoClient('localhost', 27017)
+client = MongoClient(MONGODB_URI)
 collection = client['nlp']['test']
 
 intents = read_pickle_file('data/intents.pkl')
@@ -45,11 +49,11 @@ def classify_question(tokens):
         return ['noanswer']
 
 
-def respond(tag, tokens, question):
+def handle_question(tag, tokens, question):
     for intent in intents:
         if tag == intent['tag']:
             if intent['responses']:
-                return intent['responses'][randrange(0, len(intent['responses']))]
+                return (True, intent['responses'][randrange(0, len(intent['responses']))])
             else:
                 temp_tokens = [
                     w for w in tokens
@@ -99,15 +103,11 @@ def respond(tag, tokens, question):
                 ]
                 print(query)
                 result = collection.find(query)
-                return list(result)
-    return 'Có lỗi đã xảy ra. Xin vui lòng thử lại.'
+                return (False, list(result))
+    return (True, 'Có lỗi đã xảy ra. Xin vui lòng thử lại.')
 
 
-if __name__ == "__main__":
-    # question = 'abc ajdkf xcjvlkaaf'
-    question = 'Tôi đang có nhu cầu mua giày Nike nữ màu đen cỡ 40'
+def respond(question):
     tokens = word_tokenize(question)
     tag = classify_question(tokens)[0]
-    print(tag)
-    r = respond(tag, tokens, question)
-    print(r)
+    return handle_question(tag, tokens, question)

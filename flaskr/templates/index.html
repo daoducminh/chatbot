@@ -16,23 +16,35 @@
 
 <body>
     <div class="container-fluid" id="main-content">
-        <div class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a href="/" class="navbar-brand">ChatBot</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="/">Home</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
         <div class="text-center">
             <h2 id="title">Demo ChatBot</h2>
         </div>
+        <hr>
         <div class="row">
-            <div class="col-md-3"></div>
+            <div class="col-md-6" id="item-list">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Hãng</th>
+                            <th>Loại</th>
+                            <th>Màu sắc</th>
+                            <th>Cỡ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in items %}
+                        <tr>
+                            <td>{{ item.name }}</td>
+                            <td>{{ item.brand }}</td>
+                            <td>{{ item.categories }}</td>
+                            <td>{{ item.colors }}</td>
+                            <td>{{ item.sizes }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
             <div class="col-md-6">
                 <div class="panel panel-primary">
                     <div class="panel-heading" id="accordion">
@@ -60,7 +72,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3"></div>
         </div>
     </div>
 </body>

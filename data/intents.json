@@ -1428,10 +1428,7 @@
             "Bạn cung cấp những gì?"
         ],
         "responses": [
-            "Hãy đưa ra câu hỏi. Tôi sẽ giúp bạn",
-            "Tôi có thể giúp gì cho bạn?",
-            "Bạn có vấn đề gì cần tôi giúp?",
-            "Bạn muốn tìm kiếm gì?"
+            "Tôi có thể giúp bạn tìm kiếm các sản phẩm giày theo: hãng, giới tính, màu sắc và kích thước."
         ]
     }
 ]

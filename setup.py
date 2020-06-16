@@ -26,5 +26,6 @@ setup(
         'tensorflow',
         'numpy',
         'scikit-learn',
+        'rope'
     ],
 )

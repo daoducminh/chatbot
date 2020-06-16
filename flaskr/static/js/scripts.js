@@ -6,9 +6,26 @@ const CHAT_ROW = `<li class="left clearfix">
     <div class="header">
         <strong class="primary-font">{1}</strong>
     </div>
-    <p>{2}</p>
+    <div>{2}</div>
 </div>
 </li>`;
+const TABLE_ITEMS = `<div id="result-box"><table class="table table-bordered table-striped">
+<thead><tr>
+<th>Tên sản phẩm</th>
+<th>Hãng</th>
+<th>Loại</th>
+<th>Màu sắc</th>
+<th>Cỡ</th>
+</tr></thead>
+<tbody>{0}</tbody>
+</table></div>`;
+const ITEM_ROW = `<tr>
+<td>{0}</td>
+<td>{1}</td>
+<td>{2}</td>
+<td>{3}</td>
+<td>{4}</td>
+</tr>`;
 
 function scrollToBottom(element) {
     $(element).stop().animate({ scrollTop: $(element)[0].scrollHeight }, 1000);
@@ -42,7 +59,16 @@ function handleChat() {
             data: JSON.stringify({ 'text': text }),
             contentType: 'application/json',
             success: (data) => {
-                addBotChatRow(data);
+                addBotChatRow(data['text']);
+                const items = data['items'];
+                if (items) {
+                    results = ''
+                    for (let i = 0; i < items.length; i++) {
+                        results += format(ITEM_ROW, items[i].name, items[i].brand, items[i].categories, items[i].colors, items[i].sizes)
+                    }
+                    addBotChatRow(format(TABLE_ITEMS, results))
+                }
+
                 scrollToBottom('.panel-body')
             }
         })
@@ -59,4 +85,6 @@ $(document).ready(() => {
             handleChat();
         }
     });
+
+    addBotChatRow('Xin chào. Tôi có thể giúp gì được cho bạn?')
 })
